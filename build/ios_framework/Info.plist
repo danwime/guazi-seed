@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DTXcode</key>
+	<string>0810</string>
+	<key>DTSDKName</key>
+	<string>iphoneos10.1</string>
+	<key>DTSDKBuild</key>
+	<string>14B72</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>BuildMachineOSBuild</key>
+	<string>16C53a</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string>LIB_FILE</string>
+	<key>CFBundleIdentifier</key>
+	<string>LIB_ID</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>10.1</string>
+	<key>DTXcodeBuild</key>
+	<string>8B62</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>DTPlatformBuild</key>
+	<string>14B72</string>
+</dict>
+</plist>
