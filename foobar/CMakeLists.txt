@@ -15,7 +15,7 @@ if (ANDROID_ARMV7A)
     #设置编译参数
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fvisibility=hidden")
     #声明一个动态/共享库
-    add_library(${LIB_NAME} SHARED foobar.cpp)
+    add_library(${LIB_NAME} SHARED ${DIR_SRCS})
     #链接 libxxx.a/.so/.dylib/.dll, libxxx2.a/.so/.dylib/.dll
     #target_link_libraries(${LIB_NAME} xxx xxx2)
 
@@ -56,7 +56,7 @@ elseif (WIN_64 OR WIN_32)
 elseif (OSX_64 OR OSX_DEV)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -stdlib=libc++ -fvisibility=hidden")
     #声明一个动态/共享库
-    add_library(${LIB_NAME} SHARED foobar.cpp)
+    add_library(${LIB_NAME} SHARED ${DIR_SRCS})
     #链接 libxxx.a/.so/.dylib/.dll, libxxx2.a/.so/.dylib/.dll
     #target_link_libraries(${LIB_NAME} xxx xxx2)
     #依赖系统的framework,可以使用如下方式链接
